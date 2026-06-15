@@ -19,3 +19,7 @@ Collection of Java programs covering:
 
 Author: Gagan N
 University: Amity University Bengaluru
+
+# java_labfile
+
+java lab file all programs in my repository
