@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class ScannerInput {
+public class MethodOverloading {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
 
-        System.out.print("Enter Integer: ");
+            System.out.print("Enter Integer: ");
         int i = sc.nextInt();
 
         System.out.print("Enter Float: ");
@@ -20,7 +20,8 @@ public class ScannerInput {
         System.out.print("Enter Boolean: ");
         boolean b = sc.nextBoolean();
 
-        sc.nextLine();
+
+            sc.nextLine();
 
         System.out.print("Enter String: ");
         String s = sc.nextLine();
@@ -33,6 +34,6 @@ public class ScannerInput {
         System.out.println("Boolean : " + b);
         System.out.println("String : " + s);
 
-        sc.close();
+        }
     }
 }

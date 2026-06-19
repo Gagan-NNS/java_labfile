@@ -5,12 +5,14 @@ class Bank {
 }
 
 class SBI extends Bank {
+    @Override
     double getInterestRate() {
         return 6.5;
     }
 }
 
 class HDFC extends Bank {
+    @Override
     double getInterestRate() {
         return 7.0;
     }
